@@ -1,8 +1,21 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
-
+from django.template import  Template, Context
+from django.template import loader
+from django.shortcuts import render
 # Create your views here.
+class Persona(object):
+    def __init__(self,nombre,apellido):
+        self.nombre=nombre
+        self.apellido=apellido
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+
+def Neza(request):
+    return render(request,'escuelaNeza.html')
+
+def Morelos(request):
+    return render(request,'morelos.html')
+
+
+def Martin(request):
+    return render(request,'martin.html')

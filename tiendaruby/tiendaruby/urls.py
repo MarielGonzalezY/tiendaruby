@@ -15,8 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from getiondepedidos.views import index
+from getiondepedidos.views import Neza,Morelos,Martin
+
 urlpatterns = [
-    path('saludo/', index),
+  
     path('admin/', admin.site.urls),
+    path('Neza/',Neza),
+    path('Martin/',Martin),
+    path('Morelos/',Morelos)
+
 ]

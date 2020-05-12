@@ -55,7 +55,7 @@ ROOT_URLCONF = 'tiendaruby.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/Axel Emmanuel/tiendaruby/tiendaruby/tiendaruby/plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
