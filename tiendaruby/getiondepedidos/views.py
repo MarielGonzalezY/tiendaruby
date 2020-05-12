@@ -19,3 +19,6 @@ def Morelos(request):
 
 def Martin(request):
     return render(request,'martin.html')
+
+def Home(request):
+    return render(request,'index.html')
