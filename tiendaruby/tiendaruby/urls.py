@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from getiondepedidos.views import Neza,Morelos,Martin,Home
+from getiondepedidos.views import Neza,Morelos,Martin,Home,listEsc,contacto,about
 
 urlpatterns = [
   
@@ -24,5 +24,8 @@ urlpatterns = [
     path('Martin/',Martin),
     path('Morelos/',Morelos),
     path('',Home),
+    path('lista',listEsc),
+    path('contact',contacto),
+    path('about',about)
 
 ]

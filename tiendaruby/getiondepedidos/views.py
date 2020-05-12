@@ -22,3 +22,12 @@ def Martin(request):
 
 def Home(request):
     return render(request,'index.html')
+
+def about(request):
+    return render(request,'about.html')
+
+def listEsc(request):
+    return render(request,'listEsc.html')
+
+def contacto(request):
+    return render(request, 'contact.html')
