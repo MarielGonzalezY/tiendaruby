@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-
+from getiondepedidos.views import index
 urlpatterns = [
-    path('polls/', include('getiondepedidos.urls')),
+    path('saludo/', index),
     path('admin/', admin.site.urls),
 ]
