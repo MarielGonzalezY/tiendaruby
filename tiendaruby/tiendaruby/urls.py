@@ -24,8 +24,8 @@ urlpatterns = [
     path('Martin/',Martin),
     path('Morelos/',Morelos),
     path('',Home),
-    path('lista',listEsc),
-    path('contact',contacto),
-    path('about',about)
+    path('lista/',listEsc),
+    path('contact/',contacto),
+    path('about/',about)
 
 ]
